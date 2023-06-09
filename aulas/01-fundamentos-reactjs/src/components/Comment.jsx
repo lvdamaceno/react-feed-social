@@ -5,12 +5,12 @@ import { Avatar } from './Avatar'
 export function Comment(){
   return(
     <div className={styles.comment}>
-      <Avatar hasBorder={false} src="https://github.com/lvdamaceno.png"/>
+      <Avatar hasBorder={false} src="https://www.w3schools.com/howto/img_avatar.png"/>
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Vinicius Damaceno</strong>
+              <strong>Jhon Doe</strong>
               <time title='8 de junho as 19:00h' dateTime='2023-06-08 19:00:00'>
                 Cerca de 1h atrás
               </time>
@@ -20,7 +20,7 @@ export function Comment(){
             </button>
           </header>
           <p>
-            Muito bom Devon, parabéns!!
+            Muito bom, parabéns!!
           </p>
         </div>
         <footer>
